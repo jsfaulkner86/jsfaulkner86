@@ -19,9 +19,14 @@ Now building the agentic AI systems that replace them.
 |---|---|---|
 | Prior Authorization Research Agent | CrewAI | 🔨 In Progress |
 | Clinical Document RAG Agent | LangChain + Chroma | 🔨 In Progress |
-| PPH Risk Scoring State Machine | LangGraph | 🔨 In Progress |
+| PPH Risk Scoring State Machine | Postpartum Hemorrhage Risk | LangGraph | 🔨 In Progress |
 | Healthcare Compliance Guardrail | LangChain | 🔨 In Progress |
 | Clinical Triage Agent | LangGraph + Pydantic AI | 🔨 In Progress |
+| EHR-MCP | Framework Agnostic Protocol for Healthcare | 🔨 In Progress |
+| Healthcare Compliance Guardrail | LangChain + middleware |  🔨 In Progress |
+| Market Competitor Agent | Market Researcher for Women's Health | 🔨 In Progress |
+| Product Roadmap Agent | Product & Strategy Partner for Women's Health | 🔨 In Progress |
+| Fundraising Agent | Help's Women's Health founders sharpen their investor narrative | 🔨 In Progress |
 
 ## Certifications In Progress
 - Harvard Data Science Initiative — Agentic AI (April 2026)
