@@ -17,9 +17,11 @@ Now building the agentic AI systems that replace them.
 ## Currently Building
 | Project | Framework | Status |
 |---|---|---|
-| Prior Authorization Multi-Agent System | CrewAI | 🔨 In Progress |
+| Prior Authorization Research Agent | CrewAI | 🔨 In Progress |
 | Clinical Document RAG Agent | LangChain + Chroma | 🔨 In Progress |
 | PPH Risk Scoring State Machine | LangGraph | 🔨 In Progress |
+| Healthcare Compliance Guardrail | LangChain | 🔨 In Progress |
+| Clinical Triage Agent | LangGraph + Pydantic AI | 🔨 In Progress |
 
 ## Certifications In Progress
 - Harvard Data Science Initiative — Agentic AI (April 2026)
