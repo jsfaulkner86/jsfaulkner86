@@ -19,7 +19,7 @@ Now building the agentic AI systems that replace them.
 |---|---|---|
 | Prior Authorization Research Agent | CrewAI | 🔨 In Progress |
 | Clinical Document RAG Agent | LangChain + Chroma | 🔨 In Progress |
-| PPH Risk Scoring State Machine | Postpartum Hemorrhage Risk | LangGraph | 🔨 In Progress |
+| PPH Risk Scoring State Machine | Postpartum Hemorrhage Risk | 🔨 In Progress |
 | Healthcare Compliance Guardrail | LangChain | 🔨 In Progress |
 | Clinical Triage Agent | LangGraph + Pydantic AI | 🔨 In Progress |
 | EHR-MCP | Framework Agnostic Protocol for Healthcare | 🔨 In Progress |
