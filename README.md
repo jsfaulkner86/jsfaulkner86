@@ -1,16 +1,30 @@
-## Hi there 👋
+# John Faulkner | Agentic AI Architect
 
-<!--
-**jsfaulkner86/jsfaulkner86** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+14 years architecting enterprise healthcare workflows.
+Now building the agentic AI systems that replace them.
 
-Here are some ideas to get you started:
+## What I Build
+- Multi-agent healthcare workflows (CrewAI, LangGraph, AutoGen)
+- RAG pipelines over clinical knowledge bases
+- HIPAA-compliant agent architectures with embedded governance
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Background
+- Epic EHR Architect across 12 enterprise health systems
+- 50,000-user production deployments
+- Founder, The Faulkner Group — boutique healthcare AI advisory
+- Senior AI Advisor, Panova Health
+
+## Currently Building
+| Project | Framework | Status |
+|---|---|---|
+| Prior Authorization Multi-Agent System | CrewAI | 🔨 In Progress |
+| Clinical Document RAG Agent | LangChain + Chroma | 🔨 In Progress |
+| PPH Risk Scoring State Machine | LangGraph | 🔨 In Progress |
+
+## Certifications In Progress
+- Harvard Data Science Initiative — Agentic AI (April 2026)
+- IBM RAG & Agentic AI Professional (May 2026)
+
+## Connect
+[LinkedIn](https://linkedin.com/in/johnathonfaulkner) | 
+[The Faulkner Group](https://thefaulknergroupadvisors.com)
