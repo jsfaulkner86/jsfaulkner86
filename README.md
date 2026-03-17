@@ -85,3 +85,4 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 | 🌐 Website | [thefaulknergroupadvisors.com](https://thefaulknergroupadvisors.com) |
 | 💼 LinkedIn | [linkedin.com/in/johnathonfaulkner](https://linkedin.com/in/johnathonfaulkner) |
 | 🏢 Company | The Faulkner Group — Bloomfield Hills, Michigan |
+| 🏛️ Company LinkedIn | [linkedin.com/company/faulkner-group](https://www.linkedin.com/company/faulkner-group/?viewAsMember=true) |
