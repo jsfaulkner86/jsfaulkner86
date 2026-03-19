@@ -3,6 +3,10 @@
 <h1 align="center">John Faulkner — Healthcare & Agentic AI Architect</h1>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=6B46C1&center=true&vCenter=true&multiline=false&width=700&lines=Agentic+AI+Architect+%7C+Healthcare+Systems;LangGraph+%7C+CrewAI+%7C+LangChain+%7C+RAG;14+Years+%E2%86%92+Epic+EHR+%E2%86%92+Multi-Agent+AI;Building+the+systems+that+replace+broken+workflows." alt="Typing SVG" />
+</p>
+
+<p align="center">
   <a href="https://thefaulknergroupadvisors.com"><img src="https://img.shields.io/badge/The%20Faulkner%20Group-Advisory-6B46C1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=&logoColor=white" /></a>
   <a href="https://linkedin.com/in/johnathonfaulkner"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Focus-Women's%20Health%20Tech-E91E8C?style=for-the-badge" />
