@@ -3,6 +3,12 @@
 <h1 align="center">John Faulkner — Healthcare & Agentic AI Architect</h1>
 
 <p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=900&color=6B46C1&center=true&vCenter=true&width=820&lines=Healthcare+%26+Agentic+AI+Architect;LangGraph+%7C+CrewAI+%7C+LangChain+%7C+RAG;14+Years+in+Enterprise+Healthcare+Workflow+Architecture;Building+AI-native+systems+for+women%27s+health+tech"
+      alt="Typing SVG" />
+  </a>
+</p>
+<p align="center">
   <img src="./assets/agent-loop.svg" alt="Agentic AI workflow: Planner → Tool Call → Reflect → Output" width="720" />
 </p>
 
