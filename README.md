@@ -3,31 +3,7 @@
 <h1 align="center">John Faulkner — Healthcare & Agentic AI Architect</h1>
 
 <p align="center">
-<svg width="600" height="80" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .node { fill: #6B46C1; rx: 8; }
-    .label { fill: white; font-family: monospace; font-size: 12px; text-anchor: middle; }
-    .arrow { stroke: #6B46C1; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
-    .pulse { animation: pulse 2s infinite; }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
-  </style>
-  <defs>
-    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#6B46C1" />
-    </marker>
-  </defs>
-  <rect x="10" y="25" width="90" height="30" rx="6" fill="#6B46C1" class="pulse" style="animation-delay:0s"/>
-  <text x="55" y="45" class="label">Planner</text>
-  <line x1="100" y1="40" x2="148" y2="40" class="arrow"/>
-  <rect x="150" y="25" width="90" height="30" rx="6" fill="#6B46C1" class="pulse" style="animation-delay:0.5s"/>
-  <text x="195" y="45" class="label">Tool Call</text>
-  <line x1="240" y1="40" x2="288" y2="40" class="arrow"/>
-  <rect x="290" y="25" width="90" height="30" rx="6" fill="#6B46C1" class="pulse" style="animation-delay:1s"/>
-  <text x="335" y="45" class="label">Reflect</text>
-  <line x1="380" y1="40" x2="428" y2="40" class="arrow"/>
-  <rect x="430" y="25" width="90" height="30" rx="6" fill="#6B46C1" class="pulse" style="animation-delay:1.5s"/>
-  <text x="475" y="45" class="label">Output</text>
-</svg>
+  <img src="./assets/agent-loop.svg" alt="Agentic AI workflow: Planner → Tool Call → Reflect → Output" width="720" />
 </p>
 
 <p align="center">
