@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="PzCF2tWFYCvDoGCzjVteERMDIyapvBCNfd355CW9nXI" />
+
 <h1 align="center">John Faulkner — Agentic AI Architect</h1>
 
 <p align="center">
