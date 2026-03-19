@@ -1,0 +1,133 @@
+<svg width="920" height="200" viewBox="0 0 920 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="1.8" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="scan" x="0" y="0" width="920" height="4" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="920" height="1" fill="rgba(0,0,0,0.35)"/>
+  </pattern>
+  <marker id="ag" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0,7 2.5,0 5" fill="#00FF41" opacity="0.7"/>
+  </marker>
+</defs>
+<style>
+  .bg   { fill: #020c02; }
+  .box  { fill: none; stroke: #00FF41; stroke-width: 1.5; opacity: 0.9; filter: url(#glow); }
+  .hdr  { fill: #00FF41; font: bold 10px 'Courier New',monospace; filter: url(#glow); }
+  .div  { stroke: #00FF41; stroke-width: 0.5; opacity: 0.45; }
+  .log  { fill: #33FF66; font: 9.5px 'Courier New',monospace; }
+  .dim  { fill: #007A1A; font: 9.5px 'Courier New',monospace; }
+  .stat { fill: #00FF41; font: bold 9px 'Courier New',monospace; filter: url(#glow); }
+  .csr  { fill: #00FF41; animation: blink 1.1s step-end infinite; }
+  .arr  { stroke: #00FF41; stroke-width: 1.5; fill: none;
+          stroke-dasharray: 5 3; opacity: 0.55; marker-end: url(#ag); }
+
+  /* Line reveals — PLANNER */
+  .a1l1{animation:rev 10s linear infinite 0.2s;}
+  .a1l2{animation:rev 10s linear infinite 0.6s;}
+  .a1l3{animation:rev 10s linear infinite 1.0s;}
+  .a1l4{animation:rev 10s linear infinite 1.4s;}
+  .a1l5{animation:rev 10s linear infinite 1.8s;}
+  /* Line reveals — TOOL_EXEC */
+  .a2l1{animation:rev 10s linear infinite 3.2s;}
+  .a2l2{animation:rev 10s linear infinite 3.6s;}
+  .a2l3{animation:rev 10s linear infinite 4.0s;}
+  .a2l4{animation:rev 10s linear infinite 4.4s;}
+  .a2l5{animation:rev 10s linear infinite 4.8s;}
+  /* Line reveals — REFLECT */
+  .a3l1{animation:rev 10s linear infinite 6.2s;}
+  .a3l2{animation:rev 10s linear infinite 6.6s;}
+  .a3l3{animation:rev 10s linear infinite 7.0s;}
+  .a3l4{animation:rev 10s linear infinite 7.4s;}
+  .a3l5{animation:rev 10s linear infinite 7.8s;}
+
+  /* Traveling data packets */
+  .pkt1{animation:go1 10s linear infinite 2.2s;}
+  .pkt2{animation:go2 10s linear infinite 5.2s;}
+  .pkt3{animation:go3 10s linear infinite 8.2s;}
+
+  @keyframes blink { 50%{opacity:0;} }
+  @keyframes rev   {
+    0%{opacity:0;} 2%{opacity:1;} 86%{opacity:1;} 90%,100%{opacity:0;}
+  }
+  @keyframes go1 {
+    0%,2%{opacity:0;transform:translateX(0);}
+    4%{opacity:1;}
+    18%{opacity:1;transform:translateX(74px);}
+    21%,100%{opacity:0;transform:translateX(74px);}
+  }
+  @keyframes go2 {
+    0%,2%{opacity:0;transform:translateX(0);}
+    4%{opacity:1;}
+    18%{opacity:1;transform:translateX(74px);}
+    21%,100%{opacity:0;transform:translateX(74px);}
+  }
+  @keyframes go3 {
+    0%,2%{opacity:0;transform:translateX(0);}
+    4%{opacity:1;}
+    18%{opacity:1;transform:translateX(-74px);}
+    21%,100%{opacity:0;transform:translateX(-74px);}
+  }
+</style>
+
+<!-- CRT Background + Scanlines -->
+<rect width="920" height="200" class="bg"/>
+<rect width="920" height="200" fill="url(#scan)"/>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- AGENT 1 :: PLANNER                          -->
+<!-- ═══════════════════════════════════════════ -->
+<rect x="10" y="10" width="258" height="180" rx="3" class="box"/>
+<text x="20" y="28" class="hdr">[ AGENT::PLANNER ]</text>
+<line x1="10" y1="34" x2="268" y2="34" class="div"/>
+<text x="17" y="52"  class="dim">$</text><text x="27" y="52"  class="log a1l1">> TASK RECEIVED</text>
+<text x="17" y="68"  class="dim">$</text><text x="27" y="68"  class="log a1l2">> INPUT: prior_auth.json</text>
+<text x="17" y="84"  class="dim">$</text><text x="27" y="84"  class="log a1l3">> PARSING PAYLOAD...</text>
+<text x="17" y="100" class="dim">$</text><text x="27" y="100" class="log a1l4">> ROUTING → TOOL_EXEC</text>
+<text x="17" y="116" class="dim">$</text><text x="27" y="116" class="log a1l5">> DISPATCH: OK ✓</text>
+<text x="17" y="170" class="stat a1l5">■ ACTIVE</text>
+<rect x="192" y="159" width="6" height="13" rx="1" class="csr"/>
+
+<!-- Arrow + Packet: PLANNER → TOOL_EXEC -->
+<line x1="268" y1="97" x2="342" y2="97" class="arr"/>
+<circle cx="273" cy="97" r="4.5" fill="#00FF41" class="pkt1"/>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- AGENT 2 :: TOOL_EXEC                        -->
+<!-- ═══════════════════════════════════════════ -->
+<rect x="342" y="10" width="236" height="180" rx="3" class="box"/>
+<text x="352" y="28" class="hdr">[ AGENT::TOOL_EXEC ]</text>
+<line x1="342" y1="34" x2="578" y2="34" class="div"/>
+<text x="350" y="52"  class="dim">$</text><text x="360" y="52"  class="log a2l1">> TASK ACCEPTED</text>
+<text x="350" y="68"  class="dim">$</text><text x="360" y="68"  class="log a2l2">> QUERY FHIR API...</text>
+<text x="350" y="84"  class="dim">$</text><text x="360" y="84"  class="log a2l3">> CHK PAYER RULES</text>
+<text x="350" y="100" class="dim">$</text><text x="360" y="100" class="log a2l4">> RESULT: APPROVED</text>
+<text x="350" y="116" class="dim">$</text><text x="360" y="116" class="log a2l5">> ROUTING → REFLECT</text>
+<text x="350" y="170" class="stat a2l5">■ ACTIVE</text>
+<rect x="468" y="159" width="6" height="13" rx="1" class="csr"/>
+
+<!-- Arrow + Packet: TOOL_EXEC → REFLECT -->
+<line x1="578" y1="97" x2="652" y2="97" class="arr"/>
+<circle cx="583" cy="97" r="4.5" fill="#00FF41" class="pkt2"/>
+
+<!-- ═══════════════════════════════════════════ -->
+<!-- AGENT 3 :: REFLECT                          -->
+<!-- ═══════════════════════════════════════════ -->
+<rect x="652" y="10" width="258" height="180" rx="3" class="box"/>
+<text x="662" y="28" class="hdr">[ AGENT::REFLECT ]</text>
+<line x1="652" y1="34" x2="910" y2="34" class="div"/>
+<text x="660" y="52"  class="dim">$</text><text x="670" y="52"  class="log a3l1">> RESULT RECEIVED</text>
+<text x="660" y="68"  class="dim">$</text><text x="670" y="68"  class="log a3l2">> CONFIDENCE: 94.2%</text>
+<text x="660" y="84"  class="dim">$</text><text x="670" y="84"  class="log a3l3">> UPDATING MEMORY...</text>
+<text x="660" y="100" class="dim">$</text><text x="670" y="100" class="log a3l4">> TASK COMPLETE ✓</text>
+<text x="660" y="116" class="dim">$</text><text x="670" y="116" class="log a3l5">> LOOP: REPLANNING</text>
+<text x="660" y="170" class="stat a3l5">■ ACTIVE</text>
+<rect x="818" y="159" width="6" height="13" rx="1" class="csr"/>
+
+<!-- Return packet: REFLECT → PLANNER (feedback loop) -->
+<line x1="652" y1="140" x2="268" y2="140" stroke="#00FF41" stroke-width="1"
+      stroke-dasharray="4 3" opacity="0.3" marker-end="url(#ag)"/>
+<circle cx="647" cy="140" r="4.5" fill="#00FF41" opacity="0.7" class="pkt3"/>
+
+</svg>
