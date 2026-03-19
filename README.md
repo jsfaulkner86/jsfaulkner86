@@ -1,6 +1,6 @@
 <meta name="google-site-verification" content="PzCF2tWFYCvDoGCzjVteERMDIyapvBCNfd355CW9nXI" />
 
-<h1 align="center">John Faulkner — Agentic AI Architect</h1>
+<h1 align="center">John Faulkner — Healthcare & Agentic AI Architect</h1>
 
 <p align="center">
   <a href="https://thefaulknergroupadvisors.com"><img src="https://img.shields.io/badge/The%20Faulkner%20Group-Advisory-6B46C1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=&logoColor=white" /></a>
