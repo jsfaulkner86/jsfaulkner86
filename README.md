@@ -92,6 +92,8 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) â€
 | [product-roadmap-agent](https://github.com/jsfaulkner86/product-roadmap-agent) | Product & strategy partner for early-stage founders |
 | [market-competitor-agent](https://github.com/jsfaulkner86/market-competitor-agent) | Market research agent scoped to women's health tech |
 
+<h3 align="center">ðŸ¤– Multi-Agent Systems in Action</h3>
+
 <p align="center">
   <img src="./assets/agent-comms.svg"
        alt="Agentic AI system: PLANNER â†’ TOOL_EXEC â†’ REFLECT"
@@ -108,11 +110,9 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) â€
 - Domains: Prior Auth, Clinical Triage, In-Basket Workflows, HIPAA-Compliant AI, Maternal Health
   
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true" width="480" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&theme=midnight-purple&hide_border=true&langs_count=6" width="340" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true" height="160" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&theme=midnight-purple&hide_border=true&langs_count=6" height="160" />
 </p>
 
 ---
