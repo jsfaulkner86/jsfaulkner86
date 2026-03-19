@@ -86,6 +86,12 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 | [product-roadmap-agent](https://github.com/jsfaulkner86/product-roadmap-agent) | Product & strategy partner for early-stage founders |
 | [market-competitor-agent](https://github.com/jsfaulkner86/market-competitor-agent) | Market research agent scoped to women's health tech |
 
+<p align="center">
+  <img src="./assets/agent-comms.svg"
+       alt="Agentic AI system: PLANNER → TOOL_EXEC → REFLECT"
+       width="920" />
+</p>
+
 ---
 
 ## 🏥 Healthcare Background
