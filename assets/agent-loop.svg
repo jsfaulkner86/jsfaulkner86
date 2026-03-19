@@ -1,0 +1,57 @@
+<svg width="720" height="90" viewBox="0 0 720 90" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .node { fill: #6B46C1; }
+    .text { fill: #FFFFFF; font: bold 13px monospace; text-anchor: middle; dominant-baseline: middle; }
+    .arrow { stroke: #9F7AEA; stroke-width: 2.5; fill: none; marker-end: url(#arr); }
+    .p1 { animation: pulse 2.8s ease-in-out infinite 0.0s; }
+    .p2 { animation: pulse 2.8s ease-in-out infinite 0.7s; }
+    .p3 { animation: pulse 2.8s ease-in-out infinite 1.4s; }
+    .p4 { animation: pulse 2.8s ease-in-out infinite 2.1s; }
+    .d1 { animation: travel 2.8s linear infinite 0.0s; }
+    .d2 { animation: travel 2.8s linear infinite 0.7s; }
+    .d3 { animation: travel 2.8s linear infinite 1.4s; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    @keyframes travel {
+      0%   { transform: translateX(0px);   opacity: 0; }
+      10%  { opacity: 1; }
+      90%  { opacity: 1; }
+      100% { transform: translateX(108px); opacity: 0; }
+    }
+  </style>
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#9F7AEA" />
+    </marker>
+  </defs>
+
+  <!-- Node 1: Planner -->
+  <rect x="30" y="26" width="130" height="38" rx="9" class="node p1" />
+  <text x="95" y="45" class="text">🧠 Planner</text>
+
+  <!-- Arrow 1 + traveling dot -->
+  <line x1="160" y1="45" x2="215" y2="45" class="arrow" />
+  <circle cx="162" cy="45" r="5" fill="#E91E8C" class="d1" />
+
+  <!-- Node 2: Tool Call -->
+  <rect x="217" y="26" width="130" height="38" rx="9" class="node p2" />
+  <text x="282" y="45" class="text">🔧 Tool Call</text>
+
+  <!-- Arrow 2 + traveling dot -->
+  <line x1="347" y1="45" x2="402" y2="45" class="arrow" />
+  <circle cx="349" cy="45" r="5" fill="#E91E8C" class="d2" />
+
+  <!-- Node 3: Reflect -->
+  <rect x="404" y="26" width="130" height="38" rx="9" class="node p3" />
+  <text x="469" y="45" class="text">🔁 Reflect</text>
+
+  <!-- Arrow 3 + traveling dot -->
+  <line x1="534" y1="45" x2="589" y2="45" class="arrow" />
+  <circle cx="536" cy="45" r="5" fill="#E91E8C" class="d3" />
+
+  <!-- Node 4: Output -->
+  <rect x="591" y="26" width="100" height="38" rx="9" class="node p4" />
+  <text x="641" y="45" class="text">✅ Output</text>
+</svg>
