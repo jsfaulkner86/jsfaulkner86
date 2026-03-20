@@ -50,15 +50,15 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 
 | Agent | What It Does | Status |
 |---|---|---|
-| [customer-discovery-agent](https://github.com/jsfaulkner86/customer-discovery-agent) | Monitors patient forums, Reddit, app store reviews & social signals to surface real-world unmet needs and sentiment shifts | 🔒 Private |
-| [pitch-narrative-agent](https://github.com/jsfaulkner86/pitch-narrative-agent) | Analyzes successful women's health pitch decks, monitors investor language resonance, and helps founders continuously refine their fundraising narrative | 🔒 Private |
-| [talent-advisor-agent](https://github.com/jsfaulkner86/talent-advisor-agent) | Surfaces relevant advisors, clinical champions, board prospects, and key hires for women's health tech founders | 🔒 Private |
-| [clinical-evidence-agent](https://github.com/jsfaulkner86/clinical-evidence-agent) | Monitors PubMed, ClinicalTrials.gov, and major conferences for new research supporting or threatening founders' clinical claims | 🔒 Private |
-| [partnership-agent](https://github.com/jsfaulkner86/partnership-agent) | Researches health system procurement contacts, payer partnership opportunities, employer benefit brokers, and strategic acquirers | 🔒 Private |
-| [competitive-intel-agent](https://github.com/jsfaulkner86/competitive-intel-agent) | Continuously tracks competitor product launches, fundraises, partnerships, and executive moves in women's health tech | 🔒 Private |
-| [regulatory-agent](https://github.com/jsfaulkner86/regulatory-agent) | Monitors FDA clearance paths, CPT code changes, payer policy updates, and reimbursement trends | 🔒 Private |
-| [grant-agent](https://github.com/jsfaulkner86/grant-agent) | Continuously researches SBIR/STTR, ARPA-H, NIH, and non-dilutive funding opportunities for women's health tech founders | 🔒 Private |
-| [investor-agent](https://github.com/jsfaulkner86/investor-agent) | Continuously researches PE firms, angel investors, VCs, and institutional funders active in women's health with automated discovery and structured reporting | 🔒 Private |
+| [customer-discovery-agent](https://github.com/jsfaulkner86/customer-discovery-agent) | Monitors patient forums, Reddit, app store reviews & social signals to surface real-world unmet needs and sentiment shifts | Public |
+| [pitch-narrative-agent](https://github.com/jsfaulkner86/pitch-narrative-agent) | Analyzes successful women's health pitch decks, monitors investor language resonance, and helps founders continuously refine their fundraising narrative | Public |
+| [talent-advisor-agent](https://github.com/jsfaulkner86/talent-advisor-agent) | Surfaces relevant advisors, clinical champions, board prospects, and key hires for women's health tech founders | Public |
+| [clinical-evidence-agent](https://github.com/jsfaulkner86/clinical-evidence-agent) | Monitors PubMed, ClinicalTrials.gov, and major conferences for new research supporting or threatening founders' clinical claims | Public |
+| [partnership-agent](https://github.com/jsfaulkner86/partnership-agent) | Researches health system procurement contacts, payer partnership opportunities, employer benefit brokers, and strategic acquirers | Public |
+| [competitive-intel-agent](https://github.com/jsfaulkner86/competitive-intel-agent) | Continuously tracks competitor product launches, fundraises, partnerships, and executive moves in women's health tech | Public |
+| [regulatory-agent](https://github.com/jsfaulkner86/regulatory-agent) | Monitors FDA clearance paths, CPT code changes, payer policy updates, and reimbursement trends | Public |
+| [grant-agent](https://github.com/jsfaulkner86/grant-agent) | Continuously researches SBIR/STTR, ARPA-H, NIH, and non-dilutive funding opportunities for women's health tech founders | Public |
+| [investor-agent](https://github.com/jsfaulkner86/investor-agent) | Continuously researches PE firms, angel investors, VCs, and institutional funders active in women's health with automated discovery and structured reporting | Public |
 
 > **Core infrastructure:** [faulkner-agent-core](https://github.com/jsfaulkner86/faulkner-agent-core) — unified founder profiles, Supabase schema, Notion workspace, secrets management, and master orchestrator powering all 9 agents.
 
