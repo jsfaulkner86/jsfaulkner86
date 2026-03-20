@@ -70,7 +70,7 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 | Project | Stack | What It Does | Status |
 |---|---|---|---|
 | [ehr-mcp](https://github.com/jsfaulkner86/ehr-mcp) | Framework-Agnostic | Interoperability protocol for multi-agent healthcare AI | v0.1.0 Pre-Release |
-| [prior-auth-research-agent](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI + RAG | Automates the most broken workflow in healthcare | 🚧 In Progress |
+| [prior-auth-research-agent](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI + RAG | Automates the most broken workflow in healthcare | v0.1.0 Pre-Release |
 | [clinical-rag-agent](https://github.com/jsfaulkner86/clinical-rag-agent) | LangChain + Chroma | Delivers clinical guidelines at point of care | 🚧 In Progress |
 | [pph-risk-scoring-agent](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | LangGraph | Postpartum hemorrhage risk — real production workflow rebuilt as agent | 🚧 In Progress |
 | [clinical-triage-agent](https://github.com/jsfaulkner86/clinical-triage-agent) | LangGraph + Pydantic AI | In-basket logic rebuilt as an agentic triage system | v0.1.0 Pre-Release |
