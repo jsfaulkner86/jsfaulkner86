@@ -122,8 +122,8 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 
 | Certification | Issuer | Expected |
 |---|---|---|
-| Agentic AI & AI Evaluation in Healthcare | Harvard Data Science Initiative | April 2026 |
-| RAG & Agentic AI Professional | IBM | May 2026 |
+| Agentic AI & AI Evaluation in Healthcare | Harvard Data Science Initiative | 🚧 In Progress |
+| RAG & Agentic AI Professional | IBM | 🚧 In Progress |
 
 ---
 
