@@ -76,6 +76,7 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) â€
 | [healthcare-compliance-guardrail](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | LangChain + middleware | The compliance layer every healthcare AI needs |
 | [ehr-mcp](https://github.com/jsfaulkner86/ehr-mcp) | Framework-Agnostic | Interoperability protocol for multi-agent healthcare AI |
 | [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare |
+| [perinatal-companion-agent](https://github.com/jsfaulkner86/perinatal-companion-agent) | Python | From the start of your pregnancy journey until 1 year after birth |
 
 ### TypeScript Â· Women's Health Tech Products
 | Project | What It Does |
