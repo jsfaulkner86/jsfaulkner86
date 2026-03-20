@@ -67,16 +67,16 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 ## 🔨 Active Projects
 
 ### Python · Agentic AI Systems
-| Project | Stack | What It Does |
-|---|---|---|
-| [prior-auth-research-agent](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI + RAG | Automates the most broken workflow in healthcare |
-| [clinical-rag-agent](https://github.com/jsfaulkner86/clinical-rag-agent) | LangChain + Chroma | Delivers clinical guidelines at point of care |
-| [pph-risk-scoring-agent](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | LangGraph | Postpartum hemorrhage risk — real production workflow rebuilt as agent |
-| [clinical-triage-agent](https://github.com/jsfaulkner86/clinical-triage-agent) | LangGraph + Pydantic AI | In-basket logic rebuilt as an agentic triage system |
-| [healthcare-compliance-guardrail](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | LangChain + middleware | The compliance layer every healthcare AI needs |
-| [ehr-mcp](https://github.com/jsfaulkner86/ehr-mcp) | Framework-Agnostic | Interoperability protocol for multi-agent healthcare AI |
-| [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare |
-| [perinatal-companion-agent](https://github.com/jsfaulkner86/perinatal-companion-agent) | Python | From the start of your pregnancy journey until 1 year after birth |
+| Project | Stack | What It Does | Status |
+|---|---|---|---|
+| [prior-auth-research-agent](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI + RAG | Automates the most broken workflow in healthcare | 🚧 In Progress |
+| [clinical-rag-agent](https://github.com/jsfaulkner86/clinical-rag-agent) | LangChain + Chroma | Delivers clinical guidelines at point of care | 🚧 In Progress |
+| [pph-risk-scoring-agent](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | LangGraph | Postpartum hemorrhage risk — real production workflow rebuilt as agent | 🚧 In Progress |
+| [clinical-triage-agent](https://github.com/jsfaulkner86/clinical-triage-agent) | LangGraph + Pydantic AI | In-basket logic rebuilt as an agentic triage system | 🚧 In Progress |
+| [healthcare-compliance-guardrail](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | LangChain + middleware | The compliance layer every healthcare AI needs | 🚧 In Progress |
+| [ehr-mcp](https://github.com/jsfaulkner86/ehr-mcp) | Framework-Agnostic | Interoperability protocol for multi-agent healthcare AI | 🚧 In Progress |
+| [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare | 🚧 In Progress |
+| [perinatal-companion-agent](https://github.com/jsfaulkner86/perinatal-companion-agent) | Python | From the start of your pregnancy journey until 1 year after birth | 🚧 In Progress |
 
 ### TypeScript · Women's Health Tech Products
 | Project | What It Does |
