@@ -109,12 +109,6 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) â€
 - **Founder, The Faulkner Group** â€” Boutique healthcare AI advisory for women's health tech leaders
 - **Senior AI Advisor, Panova Health**
 - Domains: Prior Auth, Clinical Triage, In-Basket Workflows, HIPAA-Compliant AI, Maternal Health
-  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=true" height="160" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&theme=midnight-purple&hide_border=true&langs_count=6" height="160" />
-</p>
 
 ---
 
