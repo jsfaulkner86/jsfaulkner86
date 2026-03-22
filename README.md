@@ -107,7 +107,7 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 
 - **Epic EHR Architect** — 12 enterprise health systems, 50,000-user production deployments
 - **Founder, The Faulkner Group** — Boutique healthcare AI advisory for women's health tech leaders
-- **Senior AI Advisor, Panova Health**
+- **Senior AI Advisor, Panova Health & Strategic Advisor, Navo Health**
 - Domains: Prior Auth, Clinical Triage, In-Basket Workflows, HIPAA-Compliant AI, Maternal Health
 
 ---
