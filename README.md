@@ -36,7 +36,7 @@
 ## 🏗️ Architectural Philosophy
 I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration — with governance embedded from day one.
 
-## 🤖 About
+## 👤 About
 I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) — a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
 
 ---
@@ -134,8 +134,10 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 | RAG & Agentic AI Professional | IBM | 🚧 In Progress |
 
 ## 🏛️ Professional Affiliations
-PATCA Board Member, HIMSS, PMI
-
+- **PATCA** — Board Member
+- **HIMSS** — Member
+- **PMI** — Member
+  
 ---
 
 ## 📬 Connect
