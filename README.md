@@ -21,7 +21,7 @@
 
 ---
 
-> **Before Agentic AI had a name, I was building the same systems, autonomous, goal-oriented, stateful, and multi-step. I architected them in the Epic (EHR). Now I'm codifying them in Python.**
+> **Before Agentic AI had a name, I was building the same systems, autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
 
 ## 🔄 Healthcare → Agentic AI: The Translation
 
@@ -36,7 +36,8 @@
 ## 🏗️ Architectural Philosophy
 I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration — with governance embedded from day one.
 
-I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) — a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
+## 🤖 About
+I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) — a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
 
 ---
 
@@ -61,6 +62,8 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 
 > A 9-agent intelligence ecosystem purpose-built for women's health tech founders — covering every dimension of building, funding, and scaling a healthtech company. Available exclusively to advisory clients of [The Faulkner Group](https://thefaulknergroupadvisors.com).
 
+> **🏛️ Core Infrastructure:** [faulkner-agent-core](https://github.com/jsfaulkner86/faulkner-agent-core) — unified founder profiles, Supabase schema, Notion workspace, secrets management, and master orchestrator powering all 9 agents.
+
 | Agent | What It Does | Status |
 |---|---|---|
 | [customer-discovery-agent](https://github.com/jsfaulkner86/customer-discovery-agent) | Monitors patient forums, Reddit, app store reviews & social signals to surface real-world unmet needs and sentiment shifts | Public |
@@ -72,8 +75,6 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 | [regulatory-agent](https://github.com/jsfaulkner86/regulatory-agent) | Monitors FDA clearance paths, CPT code changes, payer policy updates, and reimbursement trends | Public |
 | [grant-agent](https://github.com/jsfaulkner86/grant-agent) | Continuously researches SBIR/STTR, ARPA-H, NIH, and non-dilutive funding opportunities for women's health tech founders | Public |
 | [investor-agent](https://github.com/jsfaulkner86/investor-agent) | Continuously researches PE firms, angel investors, VCs, and institutional funders active in women's health with automated discovery and structured reporting | Public |
-
-> **Core infrastructure:** [faulkner-agent-core](https://github.com/jsfaulkner86/faulkner-agent-core) — unified founder profiles, Supabase schema, Notion workspace, secrets management, and master orchestrator powering all 9 agents.
 
 ---
 
@@ -131,6 +132,9 @@ I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) �
 |---|---|---|
 | Agentic AI & AI Evaluation in Healthcare | Harvard Data Science Initiative | 🚧 In Progress |
 | RAG & Agentic AI Professional | IBM | 🚧 In Progress |
+
+## 🏛️ Professional Affiliations
+PATCA Board Member, HIMSS, PMI
 
 ---
 
