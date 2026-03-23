@@ -21,7 +21,7 @@
 
 ---
 
-> **Before Agentic AI had a name, I was building the same systems, autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
+> **Before Agentic AI had a name, I was building the same systems, autonomous, goal-oriented, stateful, and multi-step. I architected them in the Epic (EHR). Now I'm codifying them in Python.**
 
 ## 🔄 Healthcare → Agentic AI: The Translation
 
