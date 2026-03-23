@@ -21,7 +21,20 @@
 
 ---
 
-> **14 years architecting enterprise healthcare workflows. Now building the agentic AI systems that replace them.**
+> **Before Agentic AI had a name, I was building the same systems, autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
+
+## 🔄 Healthcare → Agentic AI: The Translation
+
+| What I Built in Epic | Agentic AI Equivalent |
+|---|---|
+| PPH Risk Scoring (30 rules, automated escalation) | Autonomous decision agent with real-time sensor orchestration |
+| Epic In-Basket Routing (triage + dispatch) | LLM-powered task routing agent with priority scoring |
+| Pregnancy Registry Validation (rule triggers, exception handling) | Rule/ML hybrid agent loop with exception escalation |
+| Transition Record Assembly (4 sources → document) | RAG pipeline document generation agent |
+| 17,000 births/year coordination | Multi-agent orchestration across concurrent stateful workflows |
+
+## 🏗️ Architectural Philosophy
+I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration — with governance embedded from day one.
 
 I'm the founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) — a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
 
