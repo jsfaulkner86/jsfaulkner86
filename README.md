@@ -92,6 +92,22 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 | [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare | 🚧 In Progress |
 | [perinatal-companion-agent](https://github.com/jsfaulkner86/perinatal-companion-agent) | Python | From the start of your pregnancy journey until 1 year after birth | 🚧 In Progress |
 
+### Github Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&theme=radical&hide_border=true" width="420"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jsfaulkner86&theme=radical&hide_border=true" width="420"/>
+</p>
+
+### Top Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&theme=radical&hide_border=true" width="420"/>
+</p>
+
+### Visitor Center
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=jsfaulkner86.jsfaulkner86" />
+</p>
+
 ### TypeScript · Women's Health Tech Products
 | Project | What It Does |
 |---|---|
