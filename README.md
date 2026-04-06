@@ -8,20 +8,25 @@
       alt="Typing SVG" />
   </a>
 </p>
+
 <p align="center">
   <img src="./assets/agent-loop.svg" alt="Agentic AI workflow: Planner → Tool Call → Reflect → Output" width="720" />
 </p>
 
 <p align="center">
-  <a href="https://thefaulknergroupadvisors.com"><img src="https://img.shields.io/badge/The%20Faulkner%20Group-Advisory-6B46C1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHoiLz48L3N2Zz4=&logoColor=white" /></a>
+  <a href="https://thefaulknergroupadvisors.com"><img src="https://img.shields.io/badge/The%20Faulkner%20Group-Advisory-6E93B0?style=for-the-badge&logoColor=white" /></a>
   <a href="https://linkedin.com/in/johnathonfaulkner"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Focus-Women's%20Health%20Tech-E91E8C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Michigan-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Women's%20Health%20Tech-D4AE48?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Michigan-6E93B0?style=for-the-badge&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=jsfaulkner86&style=for-the-badge&color=6E93B0&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 ---
 
-> **Before Agentic AI had a name, I was building the same systems, autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
+> **Before Agentic AI had a name, I was building the same systems — autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
 
 ## 🔄 Healthcare → Agentic AI: The Translation
 
@@ -46,14 +51,27 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square" />
-  <img src="https://img.shields.io/badge/CrewAI-6B46C1?style=flat-square" />
+  <img src="https://img.shields.io/badge/LangGraph-D4AE48?style=flat-square&logoColor=white" />
+  <img src="https://img.shields.io/badge/CrewAI-6E93B0?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Epic%20EHR-Architect-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/Epic%20EHR-Architect-6E93B0?style=flat-square&logoColor=white" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&hide_border=true&title_color=D4AE48&icon_color=6E93B0&text_color=ffffff&bg_color=0d1117&ring_color=D4AE48" width="420" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=jsfaulkner86&hide_border=true&background=0d1117&ring=D4AE48&fire=D4AE48&currStreakLabel=D4AE48&sideLabels=6E93B0&dates=6E93B0&sideNums=ffffff&currStreakNum=ffffff" width="420" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&hide_border=true&title_color=D4AE48&text_color=ffffff&bg_color=0d1117&langs_count=8" width="420" alt="Top Languages" />
 </p>
 
 ---
@@ -91,22 +109,6 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 | [healthcare-compliance-guardrail](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | LangChain + middleware | The compliance layer every healthcare AI needs | v0.1.0 Pre-Release |
 | [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare | 🚧 In Progress |
 | [perinatal-companion-agent](https://github.com/jsfaulkner86/perinatal-companion-agent) | Python | From the start of your pregnancy journey until 1 year after birth | 🚧 In Progress |
-
-### Github Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&theme=radical&hide_border=true" width="420"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jsfaulkner86&theme=radical&hide_border=true" width="420"/>
-</p>
-
-### Top Languages
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&theme=radical&hide_border=true" width="420"/>
-</p>
-
-### Visitor Center
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=jsfaulkner86.jsfaulkner86" />
-</p>
 
 ### TypeScript · Women's Health Tech Products
 | Project | What It Does |
@@ -153,7 +155,7 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 - **PATCA** — Board Member
 - **HIMSS** — Member
 - **PMI** — Member
-  
+
 ---
 
 ## 📬 Connect
