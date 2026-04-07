@@ -147,8 +147,12 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&theme=dark&title_color=D4AE48&icon_color=6E93B0&text_color=ffffff&bg_color=0d1117&hide_border=true&cache_seconds=1800" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&theme=dark&title_color=D4AE48&text_color=ffffff&bg_color=0d1117&hide_border=true&cache_seconds=1800&langs_count=6" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jsfaulkner86&theme=github_dark" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jsfaulkner86&theme=github_dark" height="165" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jsfaulkner86&theme=github_dark" height="165" />
 </p>
 
 <p align="center">
