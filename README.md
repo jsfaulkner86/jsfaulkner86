@@ -1,6 +1,6 @@
 <meta name="google-site-verification" content="PzCF2tWFYCvDoGCzjVteERMDIyapvBCNfd355CW9nXI" />
 
-<h1 align="center">John Faulkner — Healthcare & Agentic AI Architect</h1>
+<h1 align="center">John Faulkner | Healthcare & Agentic AI Architect</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/agent-loop-v2.svg" alt="Agentic AI workflow: Planner → Tool Call → Reflect → Output" width="720" />
+  <img src="./assets/agent-loop-v2.svg" alt="Agentic AI workflow: Planner to Tool Call to Reflect to Output" width="720" />
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 
 ---
 
-> **Before Agentic AI had a name, I was building the same systems — autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
+> **Before Agentic AI had a name, I was building the same systems: autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
 
 ---
 
@@ -36,35 +36,35 @@
 
 It lives in production.
 
-Every system I built during that time ran inside locked-down enterprise environments — air-gapped Epic instances, strict BAA agreements, health system IP policies, and clinical infrastructure where a bad commit affects patient care at scale. You don't push that to a personal GitHub. You don't push it anywhere public. That's not a gap in output — that's what serious enterprise healthcare work looks like.
+Every system I built during that time ran inside locked-down enterprise environments: air-gapped Epic instances, strict BAA agreements, health system IP policies, and clinical infrastructure where a bad commit affects patient care at scale. You don't push that to a personal GitHub. You don't push it anywhere public. That's not a gap in output. That's what serious enterprise healthcare work looks like.
 
 What that period produced:
-- **12 Tier 1 health system deployments** — 50,000-user production environments
+- **12 Tier 1 health system deployments** across 50,000-user production environments
 - **17,000 births/year** coordinated through automated clinical workflows I designed
-- **PPH risk scoring, In-Basket routing, pregnancy registry validation, transition record assembly** — real autonomous systems built inside Epic before the industry had a name for agentic AI
+- **PPH risk scoring, In-Basket routing, pregnancy registry validation, transition record assembly** built inside Epic before the industry had a name for agentic AI
 - **14 years of pattern recognition** across broken healthcare workflows that no amount of side-project commits can replicate
 
-What you're seeing now is the codification of that decade-plus of production experience into open-source Python — healthcare agentic AI systems built the way they should have been built from the start.
+What you're seeing now is the codification of that decade-plus of production experience into open-source Python: healthcare agentic AI systems built the way they should have been built from the start.
 
 **The gap isn't where the work stopped. It's where the work lived.**
 
 ---
 
-## 🔄 Healthcare → Agentic AI: The Translation
+## 🔄 Healthcare to Agentic AI: The Translation
 
 | What I Built in Epic | Agentic AI Equivalent | Pattern |
 |---|---|---|
 | PPH Risk Scoring (30 rules, automated escalation) | Autonomous decision agent with real-time sensor orchestration | ReAct + Tool Use |
 | Epic In-Basket Routing (triage + dispatch) | LLM-powered task routing agent with priority scoring | Plan-and-Execute |
 | Pregnancy Registry Validation (rule triggers, exception handling) | Rule/ML hybrid agent loop with exception escalation | Reflection Loop |
-| Transition Record Assembly (4 sources → document) | RAG pipeline document generation agent | RAG + Generation |
+| Transition Record Assembly (4 sources to document) | RAG pipeline document generation agent | RAG + Generation |
 | 17,000 births/year coordination | Multi-agent orchestration across concurrent stateful workflows | Multi-Agent Orchestration |
 
 ## 🏗️ Architectural Philosophy
-I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration — with governance embedded from day one. Every production system I ship includes an evaluation harness before it touches a user.
+I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration, with governance embedded from day one. Every production system I ship includes an evaluation harness before it touches a user.
 
 ## 👤 About
-I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com) — a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
+I'm the CEO and Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com), a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
 
 ---
 
@@ -82,7 +82,7 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 
 **LLMs Deployed**
 <p>
-  <img src="https://img.shields.io/badge/GPT--4o-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/GPT-4o-412991?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Claude%203.7-CC785C?style=flat-square&logoColor=white" />
   <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" />
 </p>
@@ -109,7 +109,7 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 
 ## 🤖 Founder Intelligence Platform · Women's Health Tech
 
-> A 9-agent intelligence ecosystem purpose-built for women's health tech founders — covering every dimension of building, funding, and scaling a healthtech company. Available exclusively to advisory clients of [The Faulkner Group](https://thefaulknergroupadvisors.com).
+> A 9-agent intelligence ecosystem purpose-built for women's health tech founders, covering every dimension of building, funding, and scaling a healthtech company. Available exclusively to advisory clients of [The Faulkner Group](https://thefaulknergroupadvisors.com).
 
 > **🏛️ Core Infrastructure:** [faulkner-agent-core](https://github.com/jsfaulkner86/faulkner-agent-core) — unified founder profiles, Supabase schema, Notion workspace, secrets management, and master orchestrator powering all 9 agents.
 
@@ -135,7 +135,7 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 | [ehr-mcp](https://github.com/jsfaulkner86/ehr-mcp) | Framework-Agnostic | Interoperability protocol for multi-agent healthcare AI | v0.1.0 Pre-Release |
 | [prior-auth-research-agent](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI + RAG | Automates the most broken workflow in healthcare | v0.1.0 Pre-Release |
 | [clinical-rag-agent](https://github.com/jsfaulkner86/clinical-rag-agent) | LangChain + Chroma | Delivers clinical guidelines at point of care | 🚧 In Progress |
-| [pph-risk-scoring-agent](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | LangGraph | Postpartum hemorrhage risk — real production workflow rebuilt as agent | 🚧 In Progress |
+| [pph-risk-scoring-agent](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | LangGraph | Postpartum hemorrhage risk, real production workflow rebuilt as agent | 🚧 In Progress |
 | [clinical-triage-agent](https://github.com/jsfaulkner86/clinical-triage-agent) | LangGraph + Pydantic AI | In-basket logic rebuilt as an agentic triage system | v0.1.0 Pre-Release |
 | [healthcare-compliance-guardrail](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | LangChain + middleware | The compliance layer every healthcare AI needs | v0.1.0 Pre-Release |
 | [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare | 🚧 In Progress |
@@ -146,8 +146,8 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 |---|---|
 | [femtechdb](https://github.com/jsfaulkner86/femtechdb) | World database of femtech companies, updated via daily cron job |
 | [womenshealthfundraisingtracker](https://github.com/jsfaulkner86/womenshealthfundraisingtracker) | Pipeline tracker built for women's health founders |
-| [tfgdmpersonalizer](https://github.com/jsfaulkner86/tfgdmpersonalizer) | Claude + Google Xray — personalizes LinkedIn outreach at scale |
-| [tfg-website](https://github.com/jsfaulkner86/tfg-website) | The Faulkner Group advisory website — React + Tailwind + Vite |
+| [tfgdmpersonalizer](https://github.com/jsfaulkner86/tfgdmpersonalizer) | Claude + Google Xray, personalizes LinkedIn outreach at scale |
+| [tfg-website](https://github.com/jsfaulkner86/tfg-website) | The Faulkner Group advisory website, React + Tailwind + Vite |
 
 ### Advisory Agents
 | Project | What It Does |
@@ -160,7 +160,7 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 
 <p align="center">
   <img src="./assets/agent-comms.svg"
-       alt="Agentic AI system: PLANNER → TOOL_EXEC → REFLECT"
+       alt="Agentic AI system: PLANNER to TOOL_EXEC to REFLECT"
        width="920" />
 </p>
 
@@ -185,9 +185,9 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 
 ## 🏥 Healthcare Background
 
-- **Epic EHR Architect** — 12 enterprise health systems, 50,000-user production deployments
-- **CEO & Co-Founder, The Faulkner Group** — Boutique healthcare AI advisory for women's health tech leaders
-- **Senior AI Advisor, Panova Health & Strategic Advisor, Navo Health**
+- **Epic EHR Architect**, 12 enterprise health systems, 50,000-user production deployments
+- **CEO and Co-Founder, The Faulkner Group**, Boutique healthcare AI advisory for women's health tech leaders
+- **Senior AI Advisor, Panova Health and Strategic Advisor, Navo Health**
 - Domains: Prior Auth, Clinical Triage, In-Basket Workflows, HIPAA-Compliant AI, Maternal Health
 
 ---
@@ -200,9 +200,9 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 | RAG & Agentic AI Professional | IBM | ✅ Completed 2026 |
 
 ## 🏛️ Professional Affiliations
-- **PATCA** — Board Member
-- **HIMSS** — Member
-- **PMI** — Member
+- **PATCA**, Board Member
+- **HIMSS**, Member
+- **PMI**, Member
 
 ---
 
@@ -212,5 +212,5 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 |---|---|
 | 🌐 Website | [thefaulknergroupadvisors.com](https://thefaulknergroupadvisors.com) |
 | 💼 LinkedIn | [linkedin.com/in/johnathonfaulkner](https://linkedin.com/in/johnathonfaulkner) |
-| 🏢 Company | The Faulkner Group — Bloomfield Hills, Michigan |
+| 🏢 Company | The Faulkner Group, Bloomfield Hills, Michigan |
 | 🏛️ Company LinkedIn | [linkedin.com/company/faulkner-group](https://www.linkedin.com/company/faulkner-group/?viewAsMember=true) |
