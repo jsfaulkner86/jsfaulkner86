@@ -63,19 +63,6 @@ I'm the CEO & Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisor
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jsfaulkner86&show_icons=true&hide_border=true&title_color=D4AE48&icon_color=6E93B0&text_color=ffffff&bg_color=0d1117&ring_color=D4AE48" width="420" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=jsfaulkner86&hide_border=true&background=0d1117&ring=D4AE48&fire=D4AE48&currStreakLabel=D4AE48&sideLabels=6E93B0&dates=6E93B0&sideNums=ffffff&currStreakNum=ffffff" width="420" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jsfaulkner86&layout=compact&hide_border=true&title_color=D4AE48&text_color=ffffff&bg_color=0d1117&langs_count=8" width="420" alt="Top Languages" />
-</p>
-
----
-
 ## 🤖 Founder Intelligence Platform · Women's Health Tech
 
 > A 9-agent intelligence ecosystem purpose-built for women's health tech founders — covering every dimension of building, funding, and scaling a healthtech company. Available exclusively to advisory clients of [The Faulkner Group](https://thefaulknergroupadvisors.com).
