@@ -28,6 +28,28 @@
 
 > **Before Agentic AI had a name, I was building the same systems — autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
 
+---
+
+## 🟩 On the Contribution Gap
+
+**14 years of enterprise healthcare architecture doesn't live on GitHub.**
+
+It lives in production.
+
+Every system I built during that time ran inside locked-down enterprise environments — air-gapped Epic instances, strict BAA agreements, health system IP policies, and clinical infrastructure where a bad commit affects patient care at scale. You don't push that to a personal GitHub. You don't push it anywhere public. That's not a gap in output — that's what serious enterprise healthcare work looks like.
+
+What that period produced:
+- **12 Tier 1 health system deployments** — 50,000-user production environments
+- **17,000 births/year** coordinated through automated clinical workflows I designed
+- **PPH risk scoring, In-Basket routing, pregnancy registry validation, transition record assembly** — real autonomous systems built inside Epic before the industry had a name for agentic AI
+- **14 years of pattern recognition** across broken healthcare workflows that no amount of side-project commits can replicate
+
+What you're seeing now is the codification of that decade-plus of production experience into open-source Python — healthcare agentic AI systems built the way they should have been built from the start.
+
+**The gap isn't where the work stopped. It's where the work lived.**
+
+---
+
 ## 🔄 Healthcare → Agentic AI: The Translation
 
 | What I Built in Epic | Agentic AI Equivalent | Pattern |
