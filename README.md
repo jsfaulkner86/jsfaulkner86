@@ -40,6 +40,7 @@ Every system I built during that time ran inside locked-down enterprise environm
 
 What that period produced:
 - **12 Tier 1 health system deployments** across 50,000-user production environments
+- **40+ Epic (EHR) Upgrades and Implementations
 - **17,000 births/year** coordinated through automated clinical workflows I designed
 - **PPH risk scoring, In-Basket routing, pregnancy registry validation, transition record assembly** built inside Epic before the industry had a name for agentic AI
 - **14 years of pattern recognition** across broken healthcare workflows that no amount of side-project commits can replicate
