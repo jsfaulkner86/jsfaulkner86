@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/agent-loop.svg" alt="Agentic AI workflow: Planner → Tool Call → Reflect → Output" width="720" />
+  <img src="./assets/agent-loop-v2.svg" alt="Agentic AI workflow: Planner → Tool Call → Reflect → Output" width="720" />
 </p>
 
 <p align="center">
