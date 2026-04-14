@@ -64,6 +64,12 @@ What you're seeing now is the codification of that decade-plus of production exp
 ## 🏗️ Architectural Philosophy
 I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration, with governance embedded from day one. Every production system I ship includes an evaluation harness before it touches a user.
 
+## Before You Build or Deploy an AI Agent, ask yourself the following questions
+1. Is the task ambiguous or predictable?
+2. Is the value of the task worth the cost?
+3. Does the agent meet minimum capabilities?
+4. What happens if the agent makes a mistake?
+
 ## 👤 About
 I'm the CEO and Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com), a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
 
