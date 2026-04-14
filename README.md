@@ -170,6 +170,12 @@ I'm the CEO and Co-Founder of [The Faulkner Group](https://thefaulknergroupadvis
 ## 📊 GitHub Activity
 
 <p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&title=Repositories,Experience,Commits,Stars,Followers,Issues,PullRequest" alt="GitHub Trophies" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jsfaulkner86&theme=github_dark" width="100%" />
 </p>
 
