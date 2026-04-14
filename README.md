@@ -170,9 +170,13 @@ I'm the CEO and Co-Founder of [The Faulkner Group](https://thefaulknergroupadvis
 ## 📊 GitHub Activity
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&no-bg=true&row=1&column=7&title=Repositories,Experience,Commits,Stars,Followers,Issues,PullRequest" alt="GitHub Trophies" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=Repositories" alt="Repositories Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=Experience" alt="Experience Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=Commits" alt="Commits Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=Stars" alt="Stars Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=Followers" alt="Followers Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=Issues" alt="Issues Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=jsfaulkner86&theme=darkhub&no-frame=true&margin-w=4&margin-h=4&title=PullRequest" alt="PullRequest Trophy" />
 </p>
 
 <p align="center">
