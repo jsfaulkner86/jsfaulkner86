@@ -61,6 +61,22 @@ What you're seeing now is the codification of that decade-plus of production exp
 | Transition Record Assembly (4 sources to document) | RAG pipeline document generation agent | RAG + Generation |
 | 17,000 births/year coordination | Multi-agent orchestration across concurrent stateful workflows | Multi-Agent Orchestration |
 
+---
+
+## 🏛️ Proven Agentic Frameworks
+
+> Industry-recognized frameworks and blueprints I reference, apply, and architect against — not experimental concepts, but validated approaches from leading organizations shaping the agentic enterprise.
+
+| Framework | Organization | What It Defines | Layer |
+|---|---|---|---|
+| [A.G.E.N.T. Framework](https://dainstudios.com/services/agent-framework/) | DAIN Studios | Structured method for redesigning real workflows for agentic AI: maps current state, defines business outcomes, redesigns with AI as primary actor, and embeds governance and measurement | Workflow Redesign |
+| [NVIDIA AI Blueprints + AgentIQ](https://www.nvidia.com/en-us/ai/) | NVIDIA | Production-ready multi-agent blueprints integrating NIM microservices, NeMo lifecycle management, and AgentIQ for profiling and optimizing teams of AI agents at enterprise scale | Infrastructure + Orchestration |
+| [AWS Strands Agents + Agentic AI Factory](https://aws.amazon.com/bedrock/) | Amazon Web Services | Pre-built agent blueprints and proven integration patterns on Amazon Bedrock; A2A and MCP protocol support for secure inter-agent communication at enterprise scale | Runtime + Integration |
+| [Model Context Protocol (MCP)](https://modelcontextprotocol.io) | Anthropic | Open standard that connects AI agents to external tools, APIs, and data sources through a unified interface — the emerging interoperability layer for multi-agent systems | Interoperability |
+| [Agent-to-Agent (A2A) Protocol](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) | Google | Open protocol for secure, structured communication between AI agents across different vendors and platforms — foundational to multi-vendor agentic architectures | Agent Communication |
+
+---
+
 ## 🏗️ Architectural Philosophy
 I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration, with governance embedded from day one. Every production system I ship includes an evaluation harness before it touches a user.
 
