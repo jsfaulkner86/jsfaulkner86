@@ -1,7 +1,7 @@
 <h1 align="center">John Faulkner</h1>
 
 <p align="center">
-  <strong>Agentic AI Healthcare Systems Architect</strong><br/>
+  <strong>Agentic Healthcare AI Architect</strong><br/>
   Translating enterprise clinical workflow patterns into inspectable, governed, production-grade agentic AI systems.
 </p>
 
