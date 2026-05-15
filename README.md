@@ -27,43 +27,25 @@ These are not demo agents. They are healthcare workflow systems designed around 
 ## Agentic healthcare system spine
 
 ```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#111418",
-    "primaryColor": "#161B22",
-    "primaryTextColor": "#E6EDF3",
-    "primaryBorderColor": "#2F817D",
-    "lineColor": "#C7A74A",
-    "secondaryColor": "#1D232B",
-    "tertiaryColor": "#111418",
-    "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
-  }
-}}%%
-
+%%{init: {"theme": "base", "themeVariables": {"background": "#111418", "primaryColor": "#161B22", "primaryTextColor": "#E6EDF3", "primaryBorderColor": "#2F817D", "lineColor": "#C7A74A", "secondaryColor": "#1D232B", "tertiaryColor": "#111418", "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif"}}}%%
 flowchart LR
     A[Clinical Workflow Request] --> B[Objective Normalizer]
     B --> C[Planner]
     C --> D[Tool Router]
-
     D --> E[FHIR APIs]
     D --> F[EHR Workflow Context]
     D --> G[Clinical RAG]
     D --> H[Simulation Sandbox]
-
     E --> I[Verifier Layer]
     F --> I
     G --> I
     H --> I
-
     I --> J[Human Escalation]
     I --> K[Policy Check]
     I --> L[Evaluation Harness]
-
     J --> M[Auditable Output]
     K --> M
     L --> M
-
     M --> N[Audit Log]
     M --> O[Telemetry]
     M --> P[Replay and Drift Monitoring]
@@ -174,4 +156,3 @@ This GitHub profile is where I codify those healthcare workflow patterns into ag
 | Website | [thefaulknergroupadvisors.com](https://thefaulknergroupadvisors.com) |
 | LinkedIn | [linkedin.com/in/johnathonfaulkner](https://linkedin.com/in/johnathonfaulkner) |
 | GitHub | [github.com/jsfaulkner86](https://github.com/jsfaulkner86) |
-
