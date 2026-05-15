@@ -26,7 +26,7 @@
 
 ---
 
-> **Before Agentic AI had a name, I was building the same systems: autonomous, goal-oriented, stateful, and multi-step. I architected them in Epic. Now I'm codifying them in Python.**
+> **Epic-era clinical workflow architect building agentic AI and digital twin systems for women’s health.**
 
 ---
 
