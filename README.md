@@ -27,7 +27,6 @@ These are not demo agents. They are healthcare workflow systems designed around 
 ## Agentic healthcare system spine
 
 ```mermaid
-%%{init: {"theme": "base", "themeVariables": {"background": "#111418", "primaryColor": "#161B22", "primaryTextColor": "#E6EDF3", "primaryBorderColor": "#2F817D", "lineColor": "#C7A74A", "secondaryColor": "#1D232B", "tertiaryColor": "#111418", "fontFamily": "Inter, ui-sans-serif, system-ui, sans-serif"}}}%%
 flowchart LR
     A[Clinical Workflow Request] --> B[Objective Normalizer]
     B --> C[Planner]
@@ -48,7 +47,7 @@ flowchart LR
     L --> M
     M --> N[Audit Log]
     M --> O[Telemetry]
-    M --> P[Replay and Drift Monitoring]
+    M --> P[Replay & Drift Monitoring]
 ```
 
 ---
