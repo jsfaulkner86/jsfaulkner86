@@ -1,6 +1,6 @@
 <meta name="google-site-verification" content="PzCF2tWFYCvDoGCzjVteERMDIyapvBCNfd355CW9nXI" />
 
-<h1 align="center">John Faulkner | Healthcare & Agentic AI Architect</h1>
+<h1 align="center">John Faulkner | Agentic Healthcare AI Architect</h1>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
