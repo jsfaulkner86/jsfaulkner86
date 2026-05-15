@@ -1,239 +1,177 @@
-<meta name="google-site-verification" content="PzCF2tWFYCvDoGCzjVteERMDIyapvBCNfd355CW9nXI" />
-
-<h1 align="center">John Faulkner | Agentic Healthcare AI Architect</h1>
+<h1 align="center">John Faulkner</h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2800&pause=900&color=D4AE48&center=true&vCenter=true&width=820&lines=Healthcare+%26+Agentic+AI+Architect;LangGraph+%7C+CrewAI+%7C+LangChain+%7C+RAG;14+Years+in+Enterprise+Healthcare+Workflow+Architecture;ReAct+%7C+Plan-and-Execute+%7C+Reflection+Patterns;Building+AI-native+systems+for+women%27s+health+tech"
-      alt="Typing SVG" />
-  </a>
+  <strong>Agentic AI Healthcare Systems Architect</strong><br/>
+  Translating enterprise clinical workflow patterns into inspectable, governed, production-grade agentic AI systems.
 </p>
 
 <p align="center">
-  <img src="./assets/agent-loop-v2.svg" alt="Agentic AI workflow: Planner to Tool Call to Reflect to Output" width="720" />
-</p>
-
-<p align="center">
-  <a href="https://thefaulknergroupadvisors.com"><img src="https://img.shields.io/badge/The%20Faulkner%20Group-Advisory-6E93B0?style=for-the-badge&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/johnathonfaulkner"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Focus-Women's%20Health%20Tech-D4AE48?style=for-the-badge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Michigan-6E93B0?style=for-the-badge&logoColor=white" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=jsfaulkner86&style=for-the-badge&color=6E93B0&label=PROFILE+VIEWS" alt="Profile Views" />
+  <a href="https://thefaulknergroupadvisors.com">The Faulkner Group</a> ·
+  <a href="https://linkedin.com/in/johnathonfaulkner">LinkedIn</a> ·
+  Healthcare Workflow Systems ·
+  Epic EHR to Agentic AI
 </p>
 
 ---
 
-> **Epic-era clinical workflow architect building agentic AI and digital twin systems for women’s health.**
+## Architecture thesis
+
+I design agentic AI systems for healthcare workflows where trust, traceability, escalation, and operational fit matter.
+
+My work translates production Epic-era automation patterns into modern agent architectures: objective normalizers, planners, tool routers, FHIR/EHR interfaces, RAG pipelines, clinical safety verifiers, human approval paths, audit logs, and evaluation harnesses.
+
+These are not demo agents. They are healthcare workflow systems designed around PHI boundaries, clinical risk, governance, observability, and operational handoff.
 
 ---
 
-## 🟩 On the Contribution Gap
+## Agentic healthcare system spine
 
-**14 years of enterprise healthcare architecture doesn't live on GitHub.**
+```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "background": "#111418",
+    "primaryColor": "#161B22",
+    "primaryTextColor": "#E6EDF3",
+    "primaryBorderColor": "#2F817D",
+    "lineColor": "#C7A74A",
+    "secondaryColor": "#1D232B",
+    "tertiaryColor": "#111418",
+    "fontFamily": "Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+  }
+}}%%
 
-It lives in production.
+flowchart LR
+    A[Clinical Workflow Request] --> B[Objective Normalizer]
+    B --> C[Planner]
+    C --> D[Tool Router]
 
-Every system I built during that time ran inside locked-down enterprise environments: air-gapped Epic instances, strict BAA agreements, health system IP policies, and clinical infrastructure where a bad commit affects patient care at scale. You don't push that to a personal GitHub. You don't push it anywhere public. That's not a gap in output. That's what serious enterprise healthcare work looks like.
+    D --> E[FHIR APIs]
+    D --> F[EHR Workflow Context]
+    D --> G[Clinical RAG]
+    D --> H[Simulation Sandbox]
 
-What that period produced:
-- **12 Tier 1 health system deployments** across 50,000-user production environments
-- **40+** Epic (EHR) Upgrades and Implementations
-- **17,000 births/year** coordinated through automated clinical workflows I designed
-- **PPH risk scoring, In-Basket routing, pregnancy registry validation, transition record assembly** built inside Epic before the industry had a name for agentic AI
-- **14 years of pattern recognition** across broken healthcare workflows that no amount of side-project commits can replicate
+    E --> I[Verifier Layer]
+    F --> I
+    G --> I
+    H --> I
 
-What you're seeing now is the codification of that decade-plus of production experience into open-source Python: healthcare agentic AI systems built the way they should have been built from the start.
+    I --> J[Human Escalation]
+    I --> K[Policy Check]
+    I --> L[Evaluation Harness]
 
-**The gap isn't where the work stopped. It's where the work lived.**
+    J --> M[Auditable Output]
+    K --> M
+    L --> M
+
+    M --> N[Audit Log]
+    M --> O[Telemetry]
+    M --> P[Replay and Drift Monitoring]
+```
 
 ---
 
-## 🔄 Healthcare to Agentic AI: The Translation
+## Production background
 
-| What I Built in Epic | Agentic AI Equivalent | Pattern |
+- **14 years** designing enterprise healthcare workflow systems in Epic environments
+- **12 Tier 1 health system deployments**
+- **50,000-user production environments**
+- **40+ Epic upgrades and implementations**
+- **17,000 births/year** coordinated through automated clinical workflow design
+- Clinical domains: maternal health, prior authorization, In-Basket routing, registry validation, transition-of-care documentation
+
+---
+
+## Open-source architecture portfolio
+
+| Layer | Repository | What it demonstrates |
 |---|---|---|
-| PPH Risk Scoring (30 rules, automated escalation) | Autonomous decision agent with real-time sensor orchestration | ReAct + Tool Use |
-| Epic In-Basket Routing (triage + dispatch) | LLM-powered task routing agent with priority scoring | Plan-and-Execute |
-| Pregnancy Registry Validation (rule triggers, exception handling) | Rule/ML hybrid agent loop with exception escalation | Reflection Loop |
-| Transition Record Assembly (4 sources to document) | RAG pipeline document generation agent | RAG + Generation |
-| 17,000 births/year coordination | Multi-agent orchestration across concurrent stateful workflows | Multi-Agent Orchestration |
+| Interoperability | [`ehr-mcp`](https://github.com/jsfaulkner86/ehr-mcp) | Framework-agnostic protocol thinking for multi-agent healthcare AI |
+| Clinical workflow agents | [`clinical-triage-agent`](https://github.com/jsfaulkner86/clinical-triage-agent) | Epic In-Basket routing translated into LangGraph and PydanticAI |
+| Women's health workflow systems | [`pph-risk-scoring-agent`](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | Stateful escalation logic for postpartum hemorrhage risk |
+| Prior authorization | [`prior-auth-research-agent`](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI and RAG applied to one of healthcare's most broken workflows |
+| Governance and safety | [`healthcare-compliance-guardrail`](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | PHI-aware guardrails, policy checks, approval boundaries, and compliance middleware |
+| Clinical knowledge retrieval | [`clinical-rag-agent`](https://github.com/jsfaulkner86/clinical-rag-agent) | Clinical guideline retrieval architecture for point-of-care support |
 
 ---
 
-## 🏛️ Proven Agentic Frameworks
+## Architecture patterns I build around
 
-> Industry-recognized frameworks and blueprints I reference, apply, and architect against — not experimental concepts, but validated approaches from leading organizations shaping the agentic enterprise.
-
-| Framework | Organization | What It Defines | Layer |
-|---|---|---|---|
-| [A.G.E.N.T. Framework](https://dainstudios.com/services/agent-framework/) | DAIN Studios | Structured method for redesigning real workflows for agentic AI: maps current state, defines business outcomes, redesigns with AI as primary actor, and embeds governance and measurement | Workflow Redesign |
-| [NVIDIA AI Blueprints + AgentIQ](https://www.nvidia.com/en-us/ai/) | NVIDIA | Production-ready multi-agent blueprints integrating NIM microservices, NeMo lifecycle management, and AgentIQ for profiling and optimizing teams of AI agents at enterprise scale | Infrastructure + Orchestration |
-| [AWS Strands Agents + Agentic AI Factory](https://aws.amazon.com/bedrock/) | Amazon Web Services | Pre-built agent blueprints and proven integration patterns on Amazon Bedrock; A2A and MCP protocol support for secure inter-agent communication at enterprise scale | Runtime + Integration |
-| [Model Context Protocol (MCP)](https://modelcontextprotocol.io) | Anthropic | Open standard that connects AI agents to external tools, APIs, and data sources through a unified interface — the emerging interoperability layer for multi-agent systems | Interoperability |
-| [Agent-to-Agent (A2A) Protocol](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) | Google | Open protocol for secure, structured communication between AI agents across different vendors and platforms — foundational to multi-vendor agentic architectures | Agent Communication |
-
----
-
-## 🏗️ Architectural Philosophy
-I design across all four layers of the agentic enterprise: semantic knowledge, model intelligence, agent runtime, and orchestration, with governance embedded from day one. Every production system I ship includes an evaluation harness before it touches a user.
-
-## Before You Build or Deploy an AI Agent, ask yourself the following questions
-1. Is the task ambiguous or predictable?
-2. Is the value of the task worth the cost?
-3. Does the agent meet minimum capabilities?
-4. What happens if the agent makes a mistake?
-
-## 👤 About
-I'm the CEO and Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com), a boutique advisory firm helping women's health tech founders navigate broken healthcare systems and build AI-native products. My Python and agent work here is the technical foundation behind that advisory practice.
-
----
-
-## 🧠 Tech Stack
-
-**Orchestration & Agents**
-<p>
-  <img src="https://img.shields.io/badge/LangGraph-D4AE48?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=chainlink&logoColor=white" />
-  <img src="https://img.shields.io/badge/CrewAI-6E93B0?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/AutoGen-4B8BBE?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/PydanticAI-E92063?style=flat-square&logo=pydantic&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangSmith-FF4B4B?style=flat-square&logoColor=white" />
-</p>
-
-**LLMs Deployed**
-<p>
-  <img src="https://img.shields.io/badge/GPT-4o-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude%203.7-CC785C?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white" />
-</p>
-
-**Vector & RAG**
-<p>
-  <img src="https://img.shields.io/badge/Chroma-4B8BBE?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pinecone-00B57C?style=flat-square&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/RAGAS-Eval-D4AE48?style=flat-square&logoColor=white" />
-</p>
-
-**Full Stack**
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/Epic%20EHR-Architect-6E93B0?style=flat-square&logoColor=white" />
-</p>
-
----
-
-## 🤖 Founder Intelligence Platform · Women's Health Tech
-
-> A 9-agent intelligence ecosystem purpose-built for women's health tech founders, covering every dimension of building, funding, and scaling a healthtech company. Available exclusively to advisory clients of [The Faulkner Group](https://thefaulknergroupadvisors.com).
-
-> **🏛️ Core Infrastructure:** [faulkner-agent-core](https://github.com/jsfaulkner86/faulkner-agent-core) — unified founder profiles, Supabase schema, Notion workspace, secrets management, and master orchestrator powering all 9 agents.
-
-| Agent | What It Does | Status |
+| Pattern | Healthcare use case | Design concern |
 |---|---|---|
-| [customer-discovery-agent](https://github.com/jsfaulkner86/customer-discovery-agent) | Monitors patient forums, Reddit, app store reviews & social signals to surface real-world unmet needs and sentiment shifts | Public |
-| [pitch-narrative-agent](https://github.com/jsfaulkner86/pitch-narrative-agent) | Analyzes successful women's health pitch decks, monitors investor language resonance, and helps founders continuously refine their fundraising narrative | Public |
-| [talent-advisor-agent](https://github.com/jsfaulkner86/talent-advisor-agent) | Surfaces relevant advisors, clinical champions, board prospects, and key hires for women's health tech founders | Public |
-| [clinical-evidence-agent](https://github.com/jsfaulkner86/clinical-evidence-agent) | Monitors PubMed, ClinicalTrials.gov, and major conferences for new research supporting or threatening founders' clinical claims | Public |
-| [partnership-agent](https://github.com/jsfaulkner86/partnership-agent) | Researches health system procurement contacts, payer partnership opportunities, employer benefit brokers, and strategic acquirers | Public |
-| [competitive-intel-agent](https://github.com/jsfaulkner86/competitive-intel-agent) | Continuously tracks competitor product launches, fundraises, partnerships, and executive moves in women's health tech | Public |
-| [regulatory-agent](https://github.com/jsfaulkner86/regulatory-agent) | Monitors FDA clearance paths, CPT code changes, payer policy updates, and reimbursement trends | Public |
-| [grant-agent](https://github.com/jsfaulkner86/grant-agent) | Continuously researches SBIR/STTR, ARPA-H, NIH, and non-dilutive funding opportunities for women's health tech founders | Public |
-| [investor-agent](https://github.com/jsfaulkner86/investor-agent) | Continuously researches PE firms, angel investors, VCs, and institutional funders active in women's health with automated discovery and structured reporting | Public |
+| Objective normalization | Turning ambiguous clinical or operational requests into structured goals, constraints, and policies | Prevents agents from acting on vague or unsafe instructions |
+| Planner plus task graph | Decomposing multi-step healthcare workflows into observable, interruptible steps | Supports review, replay, and operational handoff |
+| Tool routing | Calling EHR, FHIR, RAG, document, scheduling, analytics, and workflow systems through governed interfaces | Keeps autonomy bounded by explicit tool contracts |
+| Verifier layer | Checking clinical safety, PHI handling, policy fit, and output quality before action | Reduces unsafe automation and hallucinated workflow execution |
+| Human escalation | Routing uncertain, high-risk, or policy-sensitive decisions to accountable humans | Keeps clinical accountability intact |
+| Evaluation harness | Testing agents against known workflow cases, edge conditions, latency targets, and failure modes | Makes quality measurable before deployment |
+| Audit and replay | Capturing plans, tool calls, intermediate state, approvals, and outputs | Enables governance, incident review, and continuous improvement |
 
 ---
 
-## 🔨 Active Projects
+## Design principles
 
-### Python · Agentic AI Systems
-| Project | Stack | What It Does | Status |
-|---|---|---|---|
-| [ehr-mcp](https://github.com/jsfaulkner86/ehr-mcp) | Framework-Agnostic | Interoperability protocol for multi-agent healthcare AI | v0.1.0 Pre-Release |
-| [prior-auth-research-agent](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI + RAG | Automates the most broken workflow in healthcare | v0.1.0 Pre-Release |
-| [clinical-rag-agent](https://github.com/jsfaulkner86/clinical-rag-agent) | LangChain + Chroma | Delivers clinical guidelines at point of care | 🚧 In Progress |
-| [pph-risk-scoring-agent](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | LangGraph | Postpartum hemorrhage risk, real production workflow rebuilt as agent | 🚧 In Progress |
-| [clinical-triage-agent](https://github.com/jsfaulkner86/clinical-triage-agent) | LangGraph + Pydantic AI | In-basket logic rebuilt as an agentic triage system | v0.1.0 Pre-Release |
-| [healthcare-compliance-guardrail](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | LangChain + middleware | The compliance layer every healthcare AI needs | v0.1.0 Pre-Release |
-| [world-multi-agent-system-for-healthcare](https://github.com/jsfaulkner86/world-multi-agent-system-for-healthcare) | Python | A worldwide multi-agent AI system for healthcare | 🚧 In Progress |
-| [perinatal-companion-agent](https://github.com/jsfaulkner86/perinatal-companion-agent) | Python | From the start of your pregnancy journey until 1 year after birth | 🚧 In Progress |
+- **Start with workflow, not model choice.** The agent architecture should reflect the operational pathway, exception handling, and human escalation model.
+- **Make every agent inspectable.** Plans, tool calls, intermediate state, policy decisions, and outputs should be traceable and replayable.
+- **Govern before autonomy.** Healthcare agents need approval thresholds, PHI boundaries, kill switches, audit trails, and role-based escalation.
+- **Evaluate against clinical risk.** Accuracy alone is not enough. Evaluation should include safety, latency, drift, equity, and failure-mode analysis.
+- **Use agents only where agents are warranted.** If a deterministic workflow, rules engine, or single LLM call with tools is enough, do not create a multi-agent system.
 
-### TypeScript · Women's Health Tech Products
-| Project | What It Does |
+---
+
+## Current focus
+
+I am building reference implementations for agentic healthcare workflows across:
+
+- Epic-style clinical task routing
+- Prior authorization research and evidence assembly
+- Maternal health risk escalation
+- Healthcare compliance guardrails
+- FHIR and EHR interoperability patterns
+- Agent evaluation, governance, and auditability
+
+---
+
+## Technical stack
+
+| Area | Tools and patterns |
 |---|---|
-| [femtechdb](https://github.com/jsfaulkner86/femtechdb) | World database of femtech companies, updated via daily cron job |
-| [womenshealthfundraisingtracker](https://github.com/jsfaulkner86/womenshealthfundraisingtracker) | Pipeline tracker built for women's health founders |
-| [tfgdmpersonalizer](https://github.com/jsfaulkner86/tfgdmpersonalizer) | Claude + Google Xray, personalizes LinkedIn outreach at scale |
-| [tfg-website](https://github.com/jsfaulkner86/tfg-website) | The Faulkner Group advisory website, React + Tailwind + Vite |
+| Agent orchestration | LangGraph, LangChain, CrewAI, PydanticAI, AutoGen |
+| Healthcare interoperability | Epic workflow patterns, FHIR, HL7, EHR integration design |
+| Retrieval and knowledge systems | RAG, vector stores, Chroma, Pinecone, pgvector |
+| Backend systems | Python, FastAPI, TypeScript, Node.js |
+| Evaluation and observability | pytest, LangSmith-style tracing, policy checks, audit logs, replayable workflows |
+| Governance | PHI boundaries, role-based approvals, escalation paths, clinical safety review, compliance guardrails |
 
-### Advisory Agents
-| Project | What It Does |
+---
+
+## Healthcare workflow translation
+
+| Production healthcare pattern | Agentic AI system equivalent |
 |---|---|
-| [fundraising-agent](https://github.com/jsfaulkner86/fundraising-agent) | Sharpens investor narratives for women's health founders |
-| [product-roadmap-agent](https://github.com/jsfaulkner86/product-roadmap-agent) | Product & strategy partner for early-stage founders |
-| [market-competitor-agent](https://github.com/jsfaulkner86/market-competitor-agent) | Market research agent scoped to women's health tech |
-
-<h3 align="center">🤖 Multi-Agent Systems in Action</h3>
-
-<p align="center">
-  <img src="./assets/agent-comms.svg"
-       alt="Agentic AI system: PLANNER to TOOL_EXEC to REFLECT"
-       width="920" />
-</p>
+| Epic In-Basket routing | Clinical task triage agent with prioritization, routing, and escalation |
+| PPH risk scoring | Stateful risk agent with rule evaluation, thresholding, and human review |
+| Prior authorization research | Evidence assembly agent using RAG, payer policy retrieval, and document generation |
+| Pregnancy registry validation | Rule and exception-handling loop with structured verification |
+| Transition-of-care documentation | Multi-source RAG pipeline with auditable document assembly |
 
 ---
 
-## 📊 GitHub Activity
+## Background
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jsfaulkner86&theme=github_dark" width="100%" />
-</p>
+I am the CEO and Co-Founder of [The Faulkner Group](https://thefaulknergroupadvisors.com), a healthcare AI advisory firm focused on women's health technology, clinical workflow architecture, and AI-native operating models.
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=jsfaulkner86&theme=github_dark" height="165" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=jsfaulkner86&theme=github_dark" height="165" />
-</p>
+Before building open-source healthcare agents, I spent more than a decade designing and supporting enterprise Epic workflows in production environments where reliability, governance, and operational adoption were not optional.
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=jsfaulkner86&theme=dark&ring=D4AE48&fire=D4AE48&currStreakLabel=6E93B0&hide_border=true" />
-</p>
+This GitHub profile is where I codify those healthcare workflow patterns into agentic AI reference architectures, prototypes, and implementation playbooks.
 
 ---
 
-## 🏥 Healthcare Background
+## Connect
 
-- **Epic EHR Architect**, 12 enterprise health systems, 50,000-user production deployments
-- **CEO and Co-Founder, The Faulkner Group**, Boutique healthcare AI advisory for women's health tech leaders
-- **Senior AI Advisor, Panova Health and Strategic Advisor, Navo Health**
-- Domains: Prior Auth, Clinical Triage, In-Basket Workflows, HIPAA-Compliant AI, Maternal Health
-
----
-
-## 📜 Certifications
-
-| Certification | Issuer | Status |
-|---|---|---|
-| Agentic AI & AI Evaluation in Healthcare | Harvard Data Science Initiative | ✅ Completed 2026 |
-| RAG & Agentic AI Professional | IBM | ✅ Completed 2026 |
-
-## 🏛️ Professional Affiliations
-- **PATCA**, Board Member
-- **HIMSS**, Member
-- **PMI**, Member
-
----
-
-## 📬 Connect
-
-| | |
+| Channel | Link |
 |---|---|
-| 🌐 Website | [thefaulknergroupadvisors.com](https://thefaulknergroupadvisors.com) |
-| 💼 LinkedIn | [linkedin.com/in/johnathonfaulkner](https://linkedin.com/in/johnathonfaulkner) |
-| 🏢 Company | The Faulkner Group, Bloomfield Hills, Michigan |
-| 🏛️ Company LinkedIn | [linkedin.com/company/faulkner-group](https://www.linkedin.com/company/faulkner-group/?viewAsMember=true) |
+| Website | [thefaulknergroupadvisors.com](https://thefaulknergroupadvisors.com) |
+| LinkedIn | [linkedin.com/in/johnathonfaulkner](https://linkedin.com/in/johnathonfaulkner) |
+| GitHub | [github.com/jsfaulkner86](https://github.com/jsfaulkner86) |
+
