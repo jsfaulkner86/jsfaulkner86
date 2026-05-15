@@ -26,29 +26,9 @@ These are not demo agents. They are healthcare workflow systems designed around 
 
 ## Agentic healthcare system spine
 
-```mermaid
-flowchart LR
-    A[Clinical Workflow Request] --> B[Objective Normalizer]
-    B --> C[Planner]
-    C --> D[Tool Router]
-    D --> E[FHIR APIs]
-    D --> F[EHR Workflow Context]
-    D --> G[Clinical RAG]
-    D --> H[Simulation Sandbox]
-    E --> I[Verifier Layer]
-    F --> I
-    G --> I
-    H --> I
-    I --> J[Human Escalation]
-    I --> K[Policy Check]
-    I --> L[Evaluation Harness]
-    J --> M[Auditable Output]
-    K --> M
-    L --> M
-    M --> N[Audit Log]
-    M --> O[Telemetry]
-    M --> P[Replay & Drift Monitoring]
-```
+<p align="center">
+  <img src="./assets/agentic-spine.svg" alt="Agentic Healthcare System Spine — Input to Planning to Execution to Verification to Auditable Output, with Memory Layer" width="960"/>
+</p>
 
 ---
 
