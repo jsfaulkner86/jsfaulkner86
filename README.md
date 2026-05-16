@@ -129,7 +129,7 @@ This GitHub profile is where I codify those healthcare workflow patterns into ag
 
 ## Connect
 
-If you're building clinical AI and need an architect who has shipped it in production Epic environments — [reach out](mailto:john@thefaulknergroupadvisors.com).
+If you're building clinical AI and need an architect who has shipped it in production Epic environments — [reach out](mailto:john@tfgpartner.com).
 
 | Channel | Link |
 |---|---|
