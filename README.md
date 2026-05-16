@@ -59,15 +59,15 @@ These are not demo agents. They are healthcare workflow systems designed around 
 
 ## Architecture patterns I build around
 
-| Pattern | Healthcare use case | Design concern |
-|---|---|---|
-| Objective normalization | Turning ambiguous clinical or operational requests into structured goals, constraints, and policies | Prevents agents from acting on vague or unsafe instructions |
-| Planner plus task graph | Decomposing multi-step healthcare workflows into observable, interruptible steps | Supports review, replay, and operational handoff |
-| Tool routing | Calling EHR, FHIR, RAG, document, scheduling, analytics, and workflow systems through governed interfaces | Keeps autonomy bounded by explicit tool contracts |
-| Verifier layer | Checking clinical safety, PHI handling, policy fit, and output quality before action | Reduces unsafe automation and hallucinated workflow execution |
-| Human escalation | Routing uncertain, high-risk, or policy-sensitive decisions to accountable humans | Keeps clinical accountability intact |
-| Evaluation harness | Testing agents against known workflow cases, edge conditions, latency targets, and failure modes | Makes quality measurable before deployment |
-| Audit and replay | Capturing plans, tool calls, intermediate state, approvals, and outputs | Enables governance, incident review, and continuous improvement |
+| Pattern | Healthcare use case and design concern |
+|---|---|
+| Objective normalization | Turning ambiguous clinical requests into structured goals and policies — prevents agents acting on vague or unsafe instructions |
+| Planner plus task graph | Decomposing multi-step healthcare workflows into observable, interruptible steps — supports review, replay, and operational handoff |
+| Tool routing | Calling EHR, FHIR, RAG, scheduling, and analytics systems through governed interfaces — keeps autonomy bounded by explicit tool contracts |
+| Verifier layer | Checking clinical safety, PHI handling, and policy fit before action — reduces unsafe automation and hallucinated workflow execution |
+| Human escalation | Routing uncertain or high-risk decisions to accountable humans — keeps clinical accountability intact |
+| Evaluation harness | Testing agents against known workflow cases, edge conditions, and failure modes — makes quality measurable before deployment |
+| Audit and replay | Capturing plans, tool calls, intermediate state, and outputs — enables governance, incident review, and continuous improvement |
 
 ---
 
@@ -81,16 +81,12 @@ These are not demo agents. They are healthcare workflow systems designed around 
 
 ---
 
-## Current focus
+## Currently shipping
 
-I am building reference implementations for agentic healthcare workflows across:
-
-- Real-time agent operations visibility — live clinical workflow execution on a hospital floor map
-- Epic-style clinical task routing
-- Maternal health risk escalation
-- Healthcare compliance guardrails
-- FHIR and EHR interoperability patterns
-- Agent evaluation, governance, and auditability
+- **`agentic-healthcare-ops`** — live Epic FHIR R4 prior auth pipeline with Availity X12-278 write-back and real-time AOC floor map
+- **`ehr-mcp`** — FHIR R4 MCP server with SMART-on-FHIR auth and ClinicalContextBundle for multi-agent EHR access
+- **`ai-killswitch-protocol`** — kill switch and human-in-the-loop governance protocol for clinical AI agents and digital twins
+- Next: evaluation harness and LangSmith tracing integration across the full portfolio
 
 ---
 
@@ -132,6 +128,8 @@ This GitHub profile is where I codify those healthcare workflow patterns into ag
 ---
 
 ## Connect
+
+If you're building clinical AI and need an architect who has shipped it in production Epic environments — [reach out](mailto:john@thefaulknergroupadvisors.com).
 
 | Channel | Link |
 |---|---|
