@@ -47,10 +47,10 @@ These are not demo agents. They are healthcare workflow systems designed around 
 
 | Layer | Repository | What it demonstrates |
 |---|---|---|
-| Interoperability | [`ehr-mcp`](https://github.com/jsfaulkner86/ehr-mcp) | Framework-agnostic protocol thinking for multi-agent healthcare AI |
+| Interoperability | [`ehr-mcp`](https://github.com/jsfaulkner86/ehr-mcp) | Framework-agnostic FHIR R4 data layer — SMART-on-FHIR auth, ClinicalContextBundle, multi-agent protocol design |
+| Operations visibility | [`agentic-healthcare-ops`](https://github.com/jsfaulkner86/agentic-healthcare-ops) | Real-time AOC dashboard — 9 agents on a hospital floor map, LangGraph prior auth wired to Epic FHIR R4 |
 | Clinical workflow agents | [`clinical-triage-agent`](https://github.com/jsfaulkner86/clinical-triage-agent) | Epic In-Basket routing translated into LangGraph and PydanticAI |
 | Women's health workflow systems | [`pph-risk-scoring-agent`](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | Stateful escalation logic for postpartum hemorrhage risk |
-| Prior authorization | [`prior-auth-research-agent`](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI and RAG applied to one of healthcare's most broken workflows |
 | Governance and safety | [`healthcare-compliance-guardrail`](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | PHI-aware guardrails, policy checks, approval boundaries, and compliance middleware |
 | Kill switch protocols | [`ai-killswitch-protocol`](https://github.com/jsfaulkner86/ai-killswitch-protocol) | Kill Switch Protocol for AI Agents and Healthcare Digital Twins |
 | Clinical knowledge retrieval | [`clinical-rag-agent`](https://github.com/jsfaulkner86/clinical-rag-agent) | Clinical guideline retrieval architecture for point-of-care support |
@@ -85,8 +85,8 @@ These are not demo agents. They are healthcare workflow systems designed around 
 
 I am building reference implementations for agentic healthcare workflows across:
 
+- Real-time agent operations visibility — live clinical workflow execution on a hospital floor map
 - Epic-style clinical task routing
-- Prior authorization research and evidence assembly
 - Maternal health risk escalation
 - Healthcare compliance guardrails
 - FHIR and EHR interoperability patterns
@@ -99,9 +99,10 @@ I am building reference implementations for agentic healthcare workflows across:
 | Area | Tools and patterns |
 |---|---|
 | Agent orchestration | LangGraph, LangChain, CrewAI, PydanticAI, AutoGen |
-| Healthcare interoperability | Epic workflow patterns, FHIR, HL7, EHR integration design |
+| Healthcare interoperability | Epic workflow patterns, FHIR R4, HL7, EHR integration design |
 | Retrieval and knowledge systems | RAG, vector stores, Chroma, Pinecone, pgvector |
 | Backend systems | Python, FastAPI, TypeScript, Node.js |
+| Frontend / visualization | Next.js 14, PixiJS 8, Zustand, Tailwind CSS |
 | Evaluation and observability | pytest, LangSmith-style tracing, policy checks, audit logs, replayable workflows |
 | Governance | PHI boundaries, role-based approvals, escalation paths, clinical safety review, compliance guardrails |
 
@@ -111,9 +112,10 @@ I am building reference implementations for agentic healthcare workflows across:
 
 | Production healthcare pattern | Agentic AI system equivalent |
 |---|---|
+| Epic agent operations visibility | Real-time AOC with avatar-per-agent, live speech bubbles, HITL queue, and WebSocket event feed |
 | Epic In-Basket routing | Clinical task triage agent with prioritization, routing, and escalation |
 | PPH risk scoring | Stateful risk agent with rule evaluation, thresholding, and human review |
-| Prior authorization research | Evidence assembly agent using RAG, payer policy retrieval, and document generation |
+| Prior authorization research | End-to-end LangGraph workflow — FHIR read, GPT-4o criteria eval, Availity X12-278, Epic write-back |
 | Pregnancy registry validation | Rule and exception-handling loop with structured verification |
 | Transition-of-care documentation | Multi-source RAG pipeline with auditable document assembly |
 
