@@ -52,6 +52,7 @@ These are not demo agents. They are healthcare workflow systems designed around 
 | Women's health workflow systems | [`pph-risk-scoring-agent`](https://github.com/jsfaulkner86/pph-risk-scoring-agent) | Stateful escalation logic for postpartum hemorrhage risk |
 | Prior authorization | [`prior-auth-research-agent`](https://github.com/jsfaulkner86/prior-auth-research-agent) | CrewAI and RAG applied to one of healthcare's most broken workflows |
 | Governance and safety | [`healthcare-compliance-guardrail`](https://github.com/jsfaulkner86/healthcare-compliance-guardrail) | PHI-aware guardrails, policy checks, approval boundaries, and compliance middleware |
+| Kill switch protocols | [`ai-killswitch-protocol`](https://github.com/jsfaulkner86/ai-killswitch-protocol) | Kill Switch Protocol for AI Agents and Healthcare Digital Twins |
 | Clinical knowledge retrieval | [`clinical-rag-agent`](https://github.com/jsfaulkner86/clinical-rag-agent) | Clinical guideline retrieval architecture for point-of-care support |
 
 ---
